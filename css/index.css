@@ -11,50 +11,12 @@ body {
   background: #fafafa;
 }
 
-/* HEADER */
-.header-chocholate {
-  margin: 26px 32px 34px 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.website-logo {
-  height: 24px;
-}
-
-.navigation {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14286;
-  letter-spacing: -0.02em;
-  color: #111;
-}
-
-.nav-ul-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-socials {
-  display: flex;
-  gap: 18px;
-  height: 24px;
-}
-
-.header-socials-img:hover {
-  background-color: #fd9222;
-}
-
 /* HERO (PROIECT) */
 .hero-page {
   margin: 0px 32px 72px 32px;
 }
 
 .hero-div {
-  /* max-width: 1136px; */
   background-image: url(../images/chocolate-covered-cocoa-powder.png);
   border: 1px solid #000;
   height: 600px;
@@ -72,7 +34,6 @@ body {
   margin-bottom: 40px;
   padding: 0px 40px;
   display: flex;
-  /* width: 1056px; */
   height: 179px;
   flex-direction: column;
   align-items: flex-start;
@@ -99,7 +60,6 @@ body {
 
 .button-container-header {
   display: flex;
-  /* width: 341px; */
   height: 45px;
   align-items: flex-start;
   gap: 14px;
@@ -206,66 +166,7 @@ body {
 }
 /* HERO END (PROIECT) */
 
-/* SECTION 2 */
-.section-two-div {
-  background-color: #1e1823;
-  display: flex;
-  padding: 50px;
-  justify-content: space-between;
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-  gap: 70px;
-}
-
-.section-two-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 22px;
-  width: 308px;
-}
-
-.section-two-image-div {
-  border-radius: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 62px;
-  height: 62px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-two-line-div {
-  display: flex;
-  gap: 18px;
-}
-
-.section-two-text-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 18px;
-}
-
-.section-two-header {
-  color: #fff;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.section-two-p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.28px;
-}
-
-/* SECTIOn 3 (PROIECT) */
+/* SECTION 3 (PROIECT) */
 
 .section-three-div {
   margin: 128px 31px 128px 32px;
@@ -333,7 +234,6 @@ body {
 }
 
 .section-three-cards {
-  /* display: flex; */
   background-color: transparent;
 
   perspective: 1000px;
@@ -379,7 +279,6 @@ body {
   height: 270px;
   padding: 20px;
   justify-content: center;
-  /* align-items: center; */
 
   position: absolute;
   top: 0;
@@ -561,9 +460,6 @@ body {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s ease;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   overflow: auto;
 }
 
@@ -577,8 +473,6 @@ body {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 100px;
-  margin-bottom: 50px; */
   width: 609px;
   display: flex;
   flex-direction: column;
@@ -967,19 +861,6 @@ body {
   .buy-menu-input-text {
     font-size: 2.5vw;
   }
-
-  /* ALTELE */
-  .section-two-div {
-    flex-wrap: wrap;
-  }
-
-  .navigation {
-    display: none;
-  }
-
-  .header-socials {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 428px) {
@@ -1230,27 +1111,6 @@ body {
     font-weight: 600;
     line-height: normal;
   }
-
-  /* ALTELE */
-  .header-chocholate {
-    margin: 0;
-  }
-
-  .section-two-div {
-    display: none;
-  }
-
-  .section-two-div {
-    flex-wrap: wrap;
-  }
-
-  .navigation {
-    display: none;
-  }
-
-  .header-socials {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1298,29 +1158,6 @@ body {
   .section-three-flip-card-chocolate-outer-p {
     width: 280px;
     height: 146px;
-  }
-
-  /* MODAL */
-
-  /* ALTELE */
-  .header-chocholate {
-    margin: 0;
-  }
-
-  .section-two-div {
-    display: none;
-  }
-
-  .section-two-div {
-    flex-wrap: wrap;
-  }
-
-  .navigation {
-    display: none;
-  }
-
-  .header-socials {
-    display: none;
   }
 }
 
