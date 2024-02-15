@@ -834,17 +834,18 @@ body {
 .buy-menu-submit-button:focus {
   background: #fcf1e0;
   color: #fd9222;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 /* MODAL BUY NOW END (PROIECT) */
 
 /* MEDIA (PROIECT) */
 
 @media screen and (429px <= width <= 768px) {
+  .hero-page {
+    margin: 0px 32px 50px 32px;
+  }
+
   .hero-div {
+    background-image: url(../images/chocolate-covered-cocoa-powder-tablet.png);
     height: 890px;
   }
 
@@ -883,6 +884,10 @@ body {
   }
 
   /* SECTION 3 */
+  .section-three-div {
+    margin: 100px 31px 100px 32px;
+  }
+
   .section-three-p {
     width: auto;
     max-width: 486px;
@@ -978,6 +983,345 @@ body {
 }
 
 @media screen and (max-width: 428px) {
+  /* HERO */
+  .hero-page {
+    margin: 0px 20px 71px 20px;
+    width: auto;
+    height: 621px;
+  }
+
+  .hero-div {
+    background-image: url(../images/chocolate-covered-cocoa-powder-phone.png);
+    height: 621px;
+  }
+
+  .hero-container {
+    margin-bottom: 60px;
+    padding: 0px 20px;
+  }
+
+  .hero-title {
+    width: 80vw;
+    height: 72px;
+
+    color: #fff;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+  }
+
+  .hero-cointainer-second {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .button-buy-now {
+    padding: 12px 28px;
+    font-size: 3vw;
+  }
+
+  .button-buy-now:hover,
+  .button-buy-now:focus {
+    padding: 12px 28px;
+    font-size: 3vw;
+  }
+
+  .button-how-made {
+    padding: 12px 28px;
+    font-size: 3vw;
+  }
+
+  .button-how-made:hover,
+  .button-how-made:focus {
+    padding: 12px 28px;
+    font-size: 3vw;
+  }
+
+  /* SECTION 3 */
+  .section-three-header {
+    width: 283px;
+
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+  }
+
+  .section-three-span {
+    color: #fd9222;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+  }
+
+  .section-three-div {
+    margin: 72px 20px 72px 20px;
+  }
+
+  .section-three-p {
+    width: auto;
+    max-width: 335px;
+  }
+
+  .section-three-card-chocolate {
+    width: 336px;
+    height: 270px;
+  }
+
+  .section-three-card-chocolate img {
+    margin: auto;
+  }
+
+  .section-three-card-milk {
+    width: 336px;
+    height: 270px;
+  }
+
+  .section-three-card-milk img {
+    margin: auto;
+  }
+
+  .section-three-card-nuts {
+    width: 336px;
+    height: 270px;
+  }
+
+  .section-three-card-nuts img {
+    margin: auto;
+  }
+
+  .section-three-card-sweet {
+    width: 336px;
+    height: 270px;
+  }
+
+  .section-three-card-sweet img {
+    margin: auto;
+  }
+
+  .section-three-flip-card-chocolate {
+    width: 336px;
+    height: 270px;
+  }
+
+  .section-three-flip-card-chocolate-outer-p {
+    width: 280px;
+    height: 146px;
+  }
+
+  /* MODAL */
+
+  .modal-buy {
+    width: 311px;
+  }
+
+  .modal-buy-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .modal-buy-list-cards {
+    flex-direction: row;
+    align-items: center;
+    gap: 77px;
+  }
+
+  .modal-buy-list-cards-img {
+    width: 84px;
+    height: 69px;
+  }
+
+  .buy-menu-form {
+    padding: 32px 24px 32px 24px;
+  }
+
+  .buy-menu-lable-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.667%;
+    letter-spacing: -0.24px;
+  }
+
+  .buy-menu-input-text {
+    color: rgba(64, 64, 64, 0.3);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .buy-menu-lable-div-personal-input {
+    gap: 14px;
+  }
+
+  .buy-menu-input-text-personal {
+    padding: 14px 18px;
+    width: 263px;
+  }
+
+  .buy-menu-input-text-email {
+    padding: 14px 18px;
+    width: 263px;
+  }
+
+  .buy-menu-input-text-phone {
+    padding: 14px 18px;
+    width: 263px;
+    padding-left: 110px;
+  }
+
+  .flag {
+    padding-right: 8px;
+    left: 18px;
+
+    gap: 8px;
+
+    background: #fafafa;
+    box-shadow: 2.722px 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+
+  .flag img {
+    width: 24px;
+    height: 18px;
+  }
+
+  .buy-menu-input-text-credit-card {
+    padding: 14px 18px;
+    width: 263px;
+  }
+
+  .buy-menu-input-text-textarea {
+    padding: 14px 18px;
+    width: 263px;
+  }
+
+  .buy-menu-submit-button {
+    display: inline-flex;
+    padding: 12px 28px;
+    align-items: flex-start;
+    gap: 14px;
+
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* ALTELE */
+  .header-chocholate {
+    margin: 0;
+  }
+
+  .section-two-div {
+    display: none;
+  }
+
+  .section-two-div {
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .header-socials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-three-card-chocolate {
+    width: 310px;
+    height: 270px;
+  }
+
+  .section-three-card-chocolate img {
+    margin: auto;
+  }
+
+  .section-three-card-milk {
+    width: 310px;
+    height: 270px;
+  }
+
+  .section-three-card-milk img {
+    margin: auto;
+  }
+
+  .section-three-card-nuts {
+    width: 310px;
+    height: 270px;
+  }
+
+  .section-three-card-nuts img {
+    margin: auto;
+  }
+
+  .section-three-card-sweet {
+    width: 310px;
+    height: 270px;
+  }
+
+  .section-three-card-sweet img {
+    margin: auto;
+  }
+
+  .section-three-flip-card-chocolate {
+    width: 310px;
+    height: 270px;
+  }
+
+  .section-three-flip-card-chocolate-outer-p {
+    width: 280px;
+    height: 146px;
+  }
+
+  /* MODAL */
+
+  /* ALTELE */
+  .header-chocholate {
+    margin: 0;
+  }
+
+  .section-two-div {
+    display: none;
+  }
+
+  .section-two-div {
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .header-socials {
+    display: none;
+  }
 }
 
 /* MEDIA END (PROIECT) */
